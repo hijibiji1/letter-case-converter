@@ -25,8 +25,10 @@ body {
 .btn {
   font-size: 15px;
   padding: 7px 15px;
+  margin-bottom: 5px;
   border-radius: 10px;
   cursor: pointer;
+  flex-grow: 6;
 }
 
 .btn-upload {
@@ -44,6 +46,7 @@ body {
 }
 
 .footer {
-  border-top: 1px solid black;
+  font-size: 18px;
+  border-top: 2px solid black;
   text-align: center;
 }

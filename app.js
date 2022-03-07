@@ -64,7 +64,7 @@ const downloadToFile = (content, filename, contentType) => {
 
 function saveas() {
   var text = inputBox.value;
-  downloadToFile(text, "my-new-file.txt", "text/plain");
+  downloadToFile(text, "new-text.txt", "text/plain");
 }
 
 /**
